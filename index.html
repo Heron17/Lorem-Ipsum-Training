@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SLIMAK</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--skrypty ze stronki -->
+    <!--<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>-->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.scrollTo.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.localscroll.js" type="text/javascript" charset="utf-8"></script>
+    <!--skrypty ze stronki -->
+
+    <script src="js/js-heron.js"  language="JavaScript" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body onload="imgchangetimer()">
+
+<!--skrypty ze stronki -->
+<script type="text/javascript"> 	$(document).ready(function() { 		$.localScroll(); 	}); </script>
+<!--skrypty ze stronki -->
+
+<h2>Snail on the rain</h2>
+
+<ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#about" >About</a></li>
+    <li><a href="#" onclick="pokazmenu()">Links</a>
+        <ul class="podmenujs">
+            <li><a href="#">link1</a></li>
+            <li><a href="#">link2</a></li>
+            <li><a href="#">link3</a></li>
+        </ul>
+    </li>
+    <li><a href="#" onclick="zmianatxt()">Blog</a></li>
+    <li class="contact"><a href="#" >Contact</a>
+        <ul class="podmenucs">
+            <li><a href="#">Contact1</a></li>
+            <li><a href="#">Contact2</a></li>
+            <li class="contact3"><a href="#">Contact3</a>
+                <ul class="podmenucs13">
+                    <li><a href="#">Contact31</a></li>
+                    <li><a href="#">Contact32</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact4</a></li>
+        </ul>
+    </li>
+</ul>
+
+<div id="imgbig"></div>
+<!-- <img class="slimakijpgb" src="images\sliderPic5.jpg" alt="slimak duzy obrazek" id="imgbig" > -->
+
+ <h4 class="tyt" id="tyty">Snail 5 Title goes here, more recently with desktop</h4>
+
+
+<div class="punkty">
+     <ul>
+         <a href="#"><li id="logo" onclick="imgchange(1)"><img src="images/pagination.png" alt="kropki">punkt1</li></a>
+         <a href="#"><li id="logo" onclick="imgchange(2)"><img src="images\pagination.png" alt="kropki">punkt2</li></a>
+         <a href="#"><li id="logo" onclick="imgchange(3)"><img src="images\pagination.png" alt="kropki">punkt3</li></a>
+         <a href="#"><li id="logo" onclick="imgchange(4)"><img src="images\pagination.png" alt="kropki">punkt4</li></a>
+         <a href="#"><li id="logo" onclick="imgchange(5)"><img src="images\pagination.png" alt="kropki">punkt5</li></a>
+     </ul>
+</div>
+
+
+ <div class="box">
+     <div class="o1">
+         <!--<a href="#" class="slimakijpg1">avbdbsgsgbsgsgtgsgsg</a>-->
+         <div id="slimakijpg1">slimakjpg1</div>
+         <h4>Ipsum is simply dummy text</h4>
+         <p class="text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the1</p>
+         <div class="more"><a href="slimak1.html" >more</a></div>
+     </div>
+     <div class="o1">
+         <a href="#"><img class="slimakijpg2" src="images\boxPic2.jpg" alt="box2"></a>
+         <h4>the printing and typesetting industry</h4>
+         <p class="text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the2</p>
+         <div class="more"><a href="#" onclick="imgchange()">more</a></div>
+     </div>
+
+     <div class="o1">
+         <a href="#"> <img class="slimakijpg3" src="images\boxPic3.jpg" alt="box3"></a>
+         <h4>standard dummy text  ever since the 1500s</h4>
+         <p class="text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+             Lorem Ipsum has been the industry's standard dummy text ever since the3</p>
+         <div class="more"><a href="#">more</a></div>
+     </div>
+ </div>
+
+
+<div class="box1">
+    <div class="box11">
+        <h4>Ipsum is simply dummy text</h4>
+        <p><img class="slimakijpg" src="images\contentPic.jpg" alt="contentPic">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a gallery of type and scramled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularied in 1960s with the release of Letraset
+            sheets containing Lorem Ipsum Passagers, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a gallery of type and scramled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularied in 1960s with the release of Letraset
+            sheets containing Lorem Ipsum Passagers, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a gallery of type and scramled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularied in 1960s with the release of Letraset
+            sheets containing Lorem Ipsum Passagers, and more recently with desktop publishing
+            software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    </div>
+    <a id="about" href="#"></a>
+
+    <div class="box12">
+        <h4>standard dummy text ever</h4>
+        <ul>
+            <li><a href="https://upload.wikimedia.org/wikipedia/commons/5/52/Helix_pomatia_may_2008_cropped.jpg">Lorem Ipsum is simply dummy</a></li>
+            <li><a href="#">been the industry's standard dummy</a></li>
+            <li><a href="#">when an unknown printer took</a></li>
+            <li><a href="#">gallery of type and scramled</a></li>
+            <li><a href="#">only five centuries, but also the leap</a></li>
+            <li><a href="#">into electronic typesetting</a></li>
+            <li><a href="#">remaining essentially unchanged</a></li>
+            <li><a href="#">It was popularied in 1960s</a></li>
+            <li><a href="#">with the release of Letraset sheets</a></li>
+            <li><a href="#">containing Lorem Ipsum Passagers</a></li>
+            <li><a href="#">more recently with desktop publishing</a></li>
+            <li><a href="#">software like Aldus PageMaker</a></li>
+            <li><a href="#">Lorem Ipsum is simply dummy</a></li>
+            <li><a href="#">been the industry's standard dummy</a></li>
+        </ul>
+    </div>
+</div>
+
+<div  class="end">
+    <p> Copyright &copy Your Company Name. All rights reserved. Designed by
+    <a href="#">Free Responssive Templates</a>. Validation
+    <a href="#">HTML5</a> |
+    <a href="#">CSS3</a>
+    </p>
+</div>
+
+<div id="slider"></div>
+
+</body>
+</html>
